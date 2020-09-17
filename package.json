@@ -19,7 +19,7 @@
     "build": "tsc -p .",
     "local": "sudo npm i -g && pizza",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
-    "publish": "npm version patch && npm run build && npm publish"
+    "repopublish": "npm version patch && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
