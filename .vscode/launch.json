@@ -17,8 +17,7 @@
                 "ngsw-config.json",
                 "-p",
                 "package.json",
-                "-d",
-                "minor updates."
+               
             ]
         }
     ]
