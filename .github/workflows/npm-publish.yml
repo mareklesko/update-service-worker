@@ -28,7 +28,7 @@ jobs:
       - run: npm ci
       - run: npm run repopublish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: 626b05d8-34dd-4834-9d7a-cbf8403775a9
 
   publish-gpr:
     needs: build
