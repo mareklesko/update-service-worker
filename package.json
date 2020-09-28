@@ -1,5 +1,5 @@
 {
-  "name": "update-service-worker",
+  "name": "@mareklesko/update-service-worker",
   "version": "1.2.6",
   "description": "Simple CLI for updating the angular ngsw-config.json with current app version from package.json for PWAs.",
   "main": "./lib/index.js",
@@ -12,22 +12,6 @@
     "ngsw",
     "version",
     "package"
-  ],
-  "plugins": [
-    [
-      "@semantic-release/commit-analyzer",
-      {
-        "preset": "conventionalcommits"
-      }
-    ],
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        "preset": "conventionalcommits"
-      }
-    ],
-    "@semantic-release/npm",
-    "@semantic-release/github"
   ],
   "scripts": {
     "start": "nodemon -w '-p ./package.json' '-n ./ngsw-config.json'",
