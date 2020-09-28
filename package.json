@@ -1,5 +1,5 @@
 {
-  "name": "update-service-worker",
+  "name": "@mareklesko/update-service-worker",
   "version": "1.0.4",
   "description": "Simple CLI for updating the angular ngsw-config.json with current app version from package.json for PWAs.",
   "main": "./lib/index.js",
