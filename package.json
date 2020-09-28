@@ -1,6 +1,6 @@
 {
   "name": "update-service-worker",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Simple CLI for updating the angular ngsw-config.json with current app version from package.json for PWAs.",
   "main": "./lib/index.js",
   "bin": {
@@ -13,7 +13,6 @@
     "version",
     "package"
   ],
-
   "scripts": {
     "start": "nodemon -w '-p ./package.json' '-n ./ngsw-config.json'",
     "debug": "node --nolazy ./lib/index.js -p ./package.json -n ./ngsw-config.json",
