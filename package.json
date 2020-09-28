@@ -13,6 +13,7 @@
     "version",
     "package"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "start": "nodemon -w '-p ./package.json' '-n ./ngsw-config.json'",
     "debug": "node --nolazy ./lib/index.js -p ./package.json -n ./ngsw-config.json",
