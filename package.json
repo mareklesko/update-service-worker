@@ -1,6 +1,6 @@
 {
   "name": "update-service-worker",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Simple CLI for updating the angular ngsw-config.json with current app version from package.json for PWAs.",
   "main": "./lib/index.js",
   "bin": {
