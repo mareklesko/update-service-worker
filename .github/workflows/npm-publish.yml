@@ -16,7 +16,6 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@mareklesko'
       - run: npm ci
-      - run: cat .npmrc
       - run: npm run build
       - run: npm publish
         env:   
